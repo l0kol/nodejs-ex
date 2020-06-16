@@ -1,13 +1,6 @@
 'use strict'
 
-// Libp2p Core
-const Libp2p = require('libp2p')
-// Transports
-const TCP = require('libp2p-tcp')
-const Websockets = require('libp2p-websockets')
 const WebrtcStar = require('libp2p-webrtc-star')
-// wrtc for node to supplement WebrtcStar
-const wrtc = require('wrtc')
 // Signaling Server for webrtc
 const SignalingServer = require('libp2p-webrtc-star/src/sig-server')
 

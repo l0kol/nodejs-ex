@@ -8,10 +8,15 @@
     "chai-http": "^2.0.1",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
+    "libp2p": "^0.28.2",
+    "libp2p-tcp": "^0.14.5",
+    "libp2p-webrtc-star": "^0.18.4",
+    "libp2p-websockets": "^0.13.6",
     "mocha": "^2.4.5",
     "mongodb": "^2.1.16",
     "morgan": "^1.7.0",
-    "object-assign":"4.1.0"
+    "object-assign": "4.1.0",
+    "wrtc": "^0.4.5"
   },
   "engine": {
     "node": "*",
